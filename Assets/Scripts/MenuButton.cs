@@ -15,10 +15,14 @@ public class MenuButton : MonoBehaviour
 
     GazeButton button;
 
-    void Awake()
+    void Start()
     {
         button = GetComponent<GazeButton>();
-        if (startSelected) Select();
+        if (startSelected)
+        {
+            button.disabled = true;
+            AnimateSelection();
+        }
     }
 
     public void Select()
@@ -26,8 +30,7 @@ public class MenuButton : MonoBehaviour
         button.disabled = true;
         if (onSelect != null) onSelect.Invoke(Button_ID);
         if (AttachedPanel != null) AttachedPanel.SetActive(true);
-        LeanTween.moveLocalX(transform.gameObject, displacement, 0.3f).setEase(LeanTweenType.linear);
-        LeanTween.scale(transform.gameObject, Vector2.one * (1 + scaleUP), 0.3f);
+        AnimateSelection();
     }
 
     public void Unselect(string PressedButtonId)
@@ -35,7 +38,18 @@ public class MenuButton : MonoBehaviour
         if (PressedButtonId.Equals(Button_ID)) return;
         button.disabled = false;
         if (AttachedPanel != null) AttachedPanel.SetActive(false);
+        AnimateUnselection();
+    }
+
+    private void AnimateSelection()
+    {
+        LeanTween.moveLocalX(transform.gameObject, displacement, 0.3f).setEase(LeanTweenType.linear);
+        LeanTween.scale(transform.gameObject, Vector2.one * (1 + scaleUP), 0.3f).setEase(LeanTweenType.linear);
+    }
+
+    private void AnimateUnselection()
+    {
         LeanTween.moveLocalX(transform.gameObject, 0, 0.3f).setEase(LeanTweenType.linear);
-        LeanTween.scale(transform.gameObject, Vector2.one, 0.3f);
+        LeanTween.scale(transform.gameObject, Vector2.one, 0.3f).setEase(LeanTweenType.linear);
     }
 }

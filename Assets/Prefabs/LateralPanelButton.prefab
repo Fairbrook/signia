@@ -69,8 +69,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ddc4638457e7ce04491e20c98285ec44, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 34200db34bf240e4f873709260a40b7d, type: 3}
+  m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
@@ -92,11 +92,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scaleUP: 0.4
-  displacement: 0.7
+  displacement: 0.5
+  startSelected: 0
   onSelect:
     m_PersistentCalls:
       m_Calls: []
   Button_ID: 
+  AttachedPanel: {fileID: 0}
 --- !u!114 &3723805689781454062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,7 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabled: 0
-  requiredGazeTime: 2
+  requiredGazeTime: 1.5
   onGaze:
     m_PersistentCalls:
       m_Calls:
@@ -260,14 +262,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9383544, b: 0.8443396, a: 0.8509804}
+  m_Color: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 0.8235294}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6c8dd03de10dc02489fb27a681286e6d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d646e60e85e2ba343bb616a5cabcdaad, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1

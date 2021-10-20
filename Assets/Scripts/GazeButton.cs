@@ -13,7 +13,7 @@ public class GazeButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     private float pointerDownTimer = 0;
     public bool disabled = false;
 
-    public int requiredGazeTime = 1;
+    public float requiredGazeTime = 1;
     public UnityEvent onGaze;
 
     [SerializeField]

@@ -10,12 +10,6 @@ public class Pointer : MonoBehaviour
     public VRInputModule m_InputModule;
     //public VRInputModule m_InputModule;
 
-
-    // Start is called before the first frame update
-    private void Awake()
-    {
-    }
-
     // Update is called once per frame
     private void Update()
     {
