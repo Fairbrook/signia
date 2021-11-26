@@ -8,7 +8,7 @@
         "com.unity.xr.management": "3.2.9",
         "com.unity.xr.legacyinputhelpers": "2.1.4"
       },
-      "hash": "d9f0aa2eb03eb544069ea7278048994e548e6d03"
+      "hash": "6ea2c3c041dfe61a3b254fc482fd56ad852a725c"
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
@@ -17,7 +17,7 @@
       "dependencies": {}
     },
     "com.unity.collab-proxy": {
-      "version": "1.9.0",
+      "version": "1.11.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -50,6 +50,13 @@
     },
     "com.unity.ide.vscode": {
       "version": "1.2.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.mobile.android-logcat": {
+      "version": "1.2.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
