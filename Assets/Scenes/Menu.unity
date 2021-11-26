@@ -327,7 +327,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 6.5, y: -4.6}
+  m_AnchoredPosition: {x: 6.5, y: -3.29}
   m_SizeDelta: {x: 13, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &139735010
@@ -1426,7 +1426,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.4159499}
+  m_AnchoredPosition: {x: 0, y: -1.9}
   m_SizeDelta: {x: -0.1755, y: 0.6319}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &565427544
@@ -2030,7 +2030,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
       - m_Target: {fileID: 580827242}
         m_TargetAssemblyTypeName: DialogueManager1, Assembly-CSharp
         m_MethodName: DisplayNextSentence
@@ -2425,7 +2425,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1205988981368898681, guid: 849b54ef4e238524ca47840868714230, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7293555128126622618, guid: 849b54ef4e238524ca47840868714230, type: 3}
       propertyPath: m_text
@@ -2450,7 +2450,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &942809459
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3610,7 +3610,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1095435396
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4608,7 +4608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1205988981368898630, guid: 849b54ef4e238524ca47840868714230, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 5.42
+      value: 6.46
       objectReference: {fileID: 0}
     - target: {fileID: 1205988981368898630, guid: 849b54ef4e238524ca47840868714230, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -5404,7 +5404,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2136091668
 RectTransform:
   m_ObjectHideFlags: 0
