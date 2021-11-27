@@ -8,10 +8,6 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
-    private void Start()
-    {
-        
-    }
 
     private void EnterVR()
     {
@@ -54,8 +50,4 @@ public class MainMenuController : MonoBehaviour
         }
     }
 
-    public void Close()
-    {
-        LeanTween.scale(gameObject, Vector2.zero, 1.0f).setEase(LeanTweenType.linear);
-    }
 }
